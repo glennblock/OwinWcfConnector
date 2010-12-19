@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Wcf", "Owin.Wcf.csproj", "{9A87399E-96E4-4F38-92EA-F59C3B14E347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Wcf.Test", "..\Owin.Wcf.Test\Owin.Wcf.Test.csproj", "{90F7494B-C279-4CE1-82AC-88B483FDC7D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF94A4EE-C9DD-4E6F-9799-EC4005AACC57}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Owin.Wcf.vsmdi = Owin.Wcf.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Owin.Wcf.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A87399E-96E4-4F38-92EA-F59C3B14E347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A87399E-96E4-4F38-92EA-F59C3B14E347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A87399E-96E4-4F38-92EA-F59C3B14E347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A87399E-96E4-4F38-92EA-F59C3B14E347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F7494B-C279-4CE1-82AC-88B483FDC7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F7494B-C279-4CE1-82AC-88B483FDC7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F7494B-C279-4CE1-82AC-88B483FDC7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F7494B-C279-4CE1-82AC-88B483FDC7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
